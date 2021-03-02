@@ -12,7 +12,7 @@ export const FILE_TYPE_MAP = {
     html: ["htm", "html", "mht"],
     img: ["png", "bmp", "jpg", "jpeg", "gif", "webp", "tga", "exif", "fpx", "svg", "hdri", "raw"],
     java: ["jar", "java"],
-    js: ["js"],
+    js: ["js", "jsx", "ts", "tsx"],
     json: ["json"],
     keynote: ["key"],
     md: ["md", "markdown"],
@@ -33,7 +33,8 @@ export const FILE_TYPE_MAP = {
     vue: ["vue"],
     word: ["doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "fodt", "odt", "ott", "rtf"],
     xmind: ["xmind"],
-    zip: ["zip", "rar", "tar", "gz", "gzip", "uue", "bz2", "iso", "7z", "z", "ace", "lzh", "arj", "cab"]
+    zip: ["zip", "rar", "tar", "gz", "gzip", "uue", "bz2", "iso", "7z", "z", "ace", "lzh", "arj", "cab"],
+    font: ['eot', 'otf', 'fon', 'font', 'ttf', 'ttc', 'woff', 'woff2']
 };
 
 export const FILE_ICON_MAP = {
@@ -74,5 +75,6 @@ export const FILE_ICON_MAP = {
     word: require("./img/word.svg"),
     xmind: require("./img/xmind.svg"),
     zip: require("./img/zip.svg"),
+    font: require("./img/font.svg"),
 };
 
