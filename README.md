@@ -3,7 +3,7 @@
 
 ## 安装
 ```bash
-npm install @tntd/file-icon --save-dev
+npm install @tntx/file-icon --save-dev
 ```
 
 ## 使用

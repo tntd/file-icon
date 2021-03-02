@@ -1,6 +1,6 @@
 {
-  "name": "@tntd/file-icon",
-  "version": "0.1.4",
+  "name": "@tntx/file-icon",
+  "version": "1.0.1",
   "description": "file type icons",
   "main": "dist/index.js",
   "module": "dist/index.js",
